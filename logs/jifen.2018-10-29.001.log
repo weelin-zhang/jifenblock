@@ -1,0 +1,977 @@
+2018/10/24 18:17:10 合约地址:  0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5
+2018/10/24 18:17:10 交易hash: 0x5d0013e21124511539f82cf7d9e589de768b0170fb509267a1a43da9fd5309e6, 花费(wei):33211560000000000, gas数量:1107052, gas单价:30000000000,nonce:113, value(amount): 0
+2018/10/24 20:23:02.355 [I] [main.go:19]  suc
+2018/10/24 20:23:40.730 [I] [main.go:19]  suc
+2018/10/25 09:38:35.207 [I] [main.go:20]  suc
+2018/10/25 09:40:15.793 [I] [main.go:20]  suc
+2018/10/25 09:48:01.226 [I] [main.go:26]  &{./logs/jifen.log info /Users/Weelin/private_ent/eth01/node1/keystore/ /Users/Weelin/private_ent/eth01/node1/geth.ipc 0x740eec88db4e2fb8cc50eae456d108775aa3a33f abcdef 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5 [0x740eec88db4e2fb8cc50eae456d108775aa3a33f 0xc0ad31f8d2e1e9532a9a3966b4c5553229c4230e 0xd7fb2ebd2037ff0959f6513343661772d279a7f5 0x5ab6a67381a913fd071bd477148aed23b3c02c7a] 0xc00011c080}
+2018/10/25 10:12:57.147 [I] [main.go:30]  init success
+2018/10/25 10:13:25.425 [I] [main.go:30]  init success
+2018/10/25 10:17:40.139 [I] [main.go:30]  init success
+2018/10/25 10:23:27.781 [I] [main.go:30]  init success
+2018/10/25 10:26:24.788 [I] [main.go:34]  init success
+2018/10/25 10:31:56.154 [I] [main.go:33]  init success
+2018/10/25 10:43:31.708 [I] [main.go:34]  init success
+2018/10/25 10:43:31.735 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 10:43:51.110 [D] [router.go:928]  |            ::1|[43m 404 [0m|    904.231µs| nomatch|[44m GET     [0m /  
+2018/10/25 10:43:51.939 [D] [router.go:928]  |            ::1|[43m 404 [0m|     389.57µs| nomatch|[44m GET     [0m /favicon.ico
+2018/10/25 10:43:56.229 [D] [router.go:928]  |            ::1|[43m 404 [0m|    466.385µs| nomatch|[44m GET     [0m /index
+2018/10/25 10:44:00.054 [D] [router.go:928]  |            ::1|[43m 404 [0m|    389.801µs| nomatch|[44m GET     [0m /list
+2018/10/25 10:44:39.922 [I] [main.go:35]  init success
+2018/10/25 10:44:39.936 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 10:44:40.899 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.704476ms|   match|[44m GET     [0m /list   r:/list
+2018/10/25 10:44:46.386 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.441034ms|   match|[44m GET     [0m /list   r:/list
+2018/10/25 10:44:47.338 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.639666ms|   match|[44m GET     [0m /index   r:/index
+2018/10/25 11:02:44.831 [I] [main.go:35]  init success
+2018/10/25 11:02:44.886 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:05:32.066 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.639609ms|   match|[44m GET     [0m /index   r:/index
+2018/10/25 11:05:34.367 [D] [router.go:928]  |            ::1|[43m 404 [0m|      277.1µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:24.505 [I] [main.go:35]  init success
+2018/10/25 11:06:24.538 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:06:27.749 [D] [router.go:928]  |            ::1|[43m 404 [0m|   3.815607ms| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:28.692 [D] [router.go:928]  |            ::1|[43m 404 [0m|     178.85µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:30.332 [D] [router.go:928]  |            ::1|[43m 404 [0m|    257.873µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:31.175 [D] [router.go:928]  |            ::1|[43m 404 [0m|    233.255µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:31.797 [D] [router.go:928]  |            ::1|[43m 404 [0m|    257.814µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:32.022 [D] [router.go:928]  |            ::1|[43m 404 [0m|    215.903µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:32.356 [D] [router.go:928]  |            ::1|[43m 404 [0m|    168.911µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:32.930 [D] [router.go:928]  |            ::1|[43m 404 [0m|    303.775µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:33.178 [D] [router.go:928]  |            ::1|[43m 404 [0m|     248.01µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:33.423 [D] [router.go:928]  |            ::1|[43m 404 [0m|     348.74µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:33.749 [D] [router.go:928]  |            ::1|[43m 404 [0m|    305.678µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:33.940 [D] [router.go:928]  |            ::1|[43m 404 [0m|    261.935µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:34.272 [D] [router.go:928]  |            ::1|[43m 404 [0m|    225.419µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:34.954 [D] [router.go:928]  |            ::1|[43m 404 [0m|    230.764µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:39.460 [D] [router.go:928]  |            ::1|[43m 404 [0m|    153.947µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:40.176 [D] [router.go:928]  |            ::1|[43m 404 [0m|    320.193µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:40.398 [D] [router.go:928]  |            ::1|[43m 404 [0m|    183.034µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:40.717 [D] [router.go:928]  |            ::1|[43m 404 [0m|     220.18µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:40.883 [D] [router.go:928]  |            ::1|[43m 404 [0m|    701.464µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:41.224 [D] [router.go:928]  |            ::1|[43m 404 [0m|    315.561µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:46.218 [D] [router.go:928]  |            ::1|[43m 404 [0m|    289.272µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:06:51.956 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.752983ms|   match|[44m GET     [0m /list   r:/list
+2018/10/25 11:08:46.000 [I] [main.go:35]  init success
+2018/10/25 11:08:46.015 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:08:48.668 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.324363ms|   match|[44m GET     [0m /list   r:/list
+2018/10/25 11:08:50.386 [D] [router.go:928]  |            ::1|[43m 404 [0m|    281.835µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:08:54.258 [D] [router.go:928]  |            ::1|[43m 404 [0m|     412.86µs| nomatch|[44m GET     [0m /accounts
+2018/10/25 11:08:56.990 [D] [router.go:928]  |            ::1|[43m 404 [0m|    294.888µs| nomatch|[44m GET     [0m /jifen
+2018/10/25 11:09:08.218 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.602184ms|   match|[44m GET     [0m /list   r:/list
+2018/10/25 11:09:11.244 [D] [router.go:928]  |            ::1|[43m 404 [0m|    321.334µs| nomatch|[44m GET     [0m /accounts
+2018/10/25 11:09:15.443 [D] [router.go:928]  |            ::1|[43m 404 [0m|    199.982µs| nomatch|[44m GET     [0m /accounts
+2018/10/25 11:09:32.838 [I] [main.go:35]  init success
+2018/10/25 11:09:32.861 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:09:49.040 [I] [main.go:35]  init success
+2018/10/25 11:09:49.072 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:09:56.664 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.357003ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:09:59.265 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.692714ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:10:00.186 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.311588ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:10:01.278 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.910806ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:10:02.311 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.414533ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:10:03.358 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.688419ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:10:06.777 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.158557ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:10:08.026 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.627512ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:10:09.681 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.843814ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:10:10.620 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.482727ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:13:52.265 [I] [main.go:35]  init success
+2018/10/25 11:13:52.282 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:13:52.707 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.215075ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:14:27.724 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.298814ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:14:30.742 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.978919ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:14:32.182 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.990418ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:14:33.050 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.228002ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:14:34.507 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.919553ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:15:52.586 [I] [main.go:35]  init success
+2018/10/25 11:15:52.609 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:26:42.018 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.027086ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:27:19.023 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.914612ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:27:21.197 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.406374ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:27:38.148 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.310115ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:27:48.162 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.955764ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:28:08.351 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.078018ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:28:42.514 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.627119ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:29:16.980 [D] [router.go:928]  |            ::1|[42m 200 [0m|   10.00404ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:29:53.375 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.081149ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:30:33.568 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.969659ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:30:49.115 [I] [main.go:35]  init success
+2018/10/25 11:30:49.145 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:30:51.508 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.764667ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:31:30.403 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.837473ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:34:16.673 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.380002ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:34:33.905 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.900783ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:34:35.369 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.454045ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:40:06.257 [I] [main.go:35]  init success
+2018/10/25 11:40:06.287 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:40:08.121 [D] [template.go:69]  template Execute err: html/template:base/sidebar.html:36:35: {{if}} branches end in different contexts: {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateBeforeValue delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/25 11:40:08.121 [E] [router.go:860]  html/template:base/sidebar.html:36:35: {{if}} branches end in different contexts: {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateBeforeValue delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/25 11:40:08.121 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.022264ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:40:09.932 [D] [template.go:69]  template Execute err: html/template:base/sidebar.html:36:35: {{if}} branches end in different contexts: {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateBeforeValue delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/25 11:40:09.932 [E] [router.go:860]  html/template:base/sidebar.html:36:35: {{if}} branches end in different contexts: {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateBeforeValue delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/25 11:40:09.932 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.782097ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:42:26.059 [D] [router.go:928]  |            ::1|[42m 200 [0m|    8.58041ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:42:31.467 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.056667ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:42:34.127 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.162055ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:42:34.869 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.561972ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:42:36.635 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.459371ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:42:38.150 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.628154ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:42:40.004 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.845662ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:43:28.497 [I] [main.go:35]  init success
+2018/10/25 11:43:28.531 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 11:43:44.720 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.395071ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:43:47.849 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.969397ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:43:52.258 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.41331ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:43:53.100 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.93851ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:45:32.648 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.554974ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:46:36.246 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.215966ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:46:38.247 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.092415ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:40.169 [D] [router.go:928]  |            ::1|[42m 200 [0m|   11.59622ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:42.322 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.613633ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:48:44.156 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.537582ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:45.202 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.41742ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:48:46.192 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.600469ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:47.402 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.714837ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:48:48.478 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.744699ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:49.273 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.926648ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 11:48:51.982 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.311688ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:52.707 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.783538ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:48:53.542 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.926888ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 11:48:55.959 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.214455ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 11:48:57.085 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.79494ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 13:06:22.271 [I] [main.go:36]  init success
+2018/10/25 13:06:22.312 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 13:07:00.968 [I] [main.go:36]  init success
+2018/10/25 13:07:01.028 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 13:33:30.563 [I] [main.go:37]  init success
+2018/10/25 13:33:33.402 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 13:34:05.951 [I] [main.go:37]  init success
+2018/10/25 13:34:05.998 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 13:48:25.686 [I] [main.go:37]  init success
+2018/10/25 13:48:25.713 [E] [common.go:40]  newAccount failed, missing value for required argument 1
+2018/10/25 13:48:25.742 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 13:49:06.158 [I] [main.go:37]  init success
+2018/10/25 13:49:06.163 [E] [common.go:40]  GetTransactionCount failed, missing value for required argument 1
+2018/10/25 13:49:06.190 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:29:00.736 [I] [main.go:37]  init success
+2018/10/25 14:29:00.795 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:29:23.948 [I] [main.go:37]  init success
+2018/10/25 14:29:23.974 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:29:35.921 [I] [main.go:37]  init success
+2018/10/25 14:29:35.942 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:30:09.255 [I] [main.go:37]  init success
+2018/10/25 14:30:09.303 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:30:25.295 [I] [main.go:37]  init success
+2018/10/25 14:30:25.329 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:40:56.171 [I] [main.go:37]  init success
+2018/10/25 14:40:56.208 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 14:40:59.926 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.05055ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 14:41:07.426 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.775293ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 14:41:08.943 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.407242ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/25 14:41:11.245 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.833724ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 14:41:12.298 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.571784ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 14:41:13.582 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.882938ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 16:47:50.911 [I] [main.go:37]  init success
+2018/10/25 16:47:51.004 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 16:48:43.719 [I] [main.go:37]  init success
+2018/10/25 16:48:43.748 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 16:50:29.484 [I] [main.go:37]  init success
+2018/10/25 16:50:29.509 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 16:59:06.570 [I] [main.go:37]  init success
+2018/10/25 16:59:06.600 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 16:59:07.495 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.884056ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 16:59:10.323 [D] [router.go:928]  |            ::1|[43m 404 [0m|   1.813944ms| nomatch|[44m GET     [0m /favicon.ico
+2018/10/25 16:59:11.283 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 16:59:11.283 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/createaccount.html
+2018/10/25 16:59:11.283 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 16:59:11.284 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 16:59:11.284 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 16:59:11.284 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 16:59:11.284 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 16:59:11.284 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 16:59:11.284 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 16:59:11.285 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 16:59:11.285 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 16:59:11.285 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 16:59:11.286 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 16:59:32.626 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.385713ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:02:53.441 [I] [main.go:37]  init success
+2018/10/25 17:02:53.461 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:04:34.427 [I] [main.go:37]  init success
+2018/10/25 17:04:34.461 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:06:02.275 [I] [main.go:37]  init success
+2018/10/25 17:06:02.299 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:06:27.105 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.644233ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:07:43.513 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.939807ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:07:54.183 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.627623ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:07.007 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.040766ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:09.242 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.233127ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:24.067 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.106073ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:27.316 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.082264ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:53.341 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.287046ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:08:55.302 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:08:55.306 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:08:55.307 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:08:55.307 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:08:55.307 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:08:55.307 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:08:55.307 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:08:55.307 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:08:55.307 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:08:55.309 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:08:55.309 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:08:55.309 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:08:55.310 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:09:01.640 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.705195ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:09:39.659 [I] [main.go:37]  init success
+2018/10/25 17:09:39.690 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:09:47.492 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:09:47.492 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:09:47.494 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:09:47.495 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:09:47.495 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:09:47.495 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:09:47.495 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:09:47.495 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:09:47.495 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:09:47.495 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:09:47.495 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:09:47.495 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:09:47.496 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:10:47.482 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.346056ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:11:07.005 [I] [main.go:37]  init success
+2018/10/25 17:11:07.050 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:11:14.873 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:11:14.873 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:11:14.873 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:11:14.873 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:11:14.873 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:11:14.873 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:11:14.873 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:11:14.874 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:11:14.874 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:11:14.875 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:11:14.876 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:11:14.876 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:11:14.877 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:11:19.040 [D] [router.go:928]  |            ::1|[42m 200 [0m|    8.23099ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:11:20.271 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.447322ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:11:22.519 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:11:22.519 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:11:22.519 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:11:22.519 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:11:22.519 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:11:22.520 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:11:22.520 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:11:22.520 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:11:22.520 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:11:22.520 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:11:22.520 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:11:22.520 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:11:22.521 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:11:34.448 [I] [main.go:37]  init success
+2018/10/25 17:11:34.485 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:12:06.107 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:12:06.107 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:12:06.107 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:12:06.107 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:12:06.107 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:12:06.107 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:12:06.107 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:12:06.107 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:12:06.107 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:12:06.110 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:12:06.110 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:12:06.110 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:12:06.112 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:12:08.960 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.633902ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:12:11.375 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.761044ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:12:14.455 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:12:14.455 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:12:14.455 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:12:14.455 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:12:14.455 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:12:14.455 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:12:14.455 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:12:14.455 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:12:14.455 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:12:14.455 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:12:14.455 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:12:14.455 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:12:14.456 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:13:15.636 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.484499ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:13:18.576 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:13:18.577 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:13:18.577 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:13:18.577 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:13:18.577 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:13:18.577 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:13:18.578 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:13:18.578 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:13:18.578 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:13:18.578 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:13:18.578 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:13:18.578 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:13:18.583 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:16:07.005 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.279732ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:16:09.731 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.660081ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:16:13.361 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:16:13.364 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/jifencontroller/createaccount.tpl
+2018/10/25 17:16:13.364 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:16:13.365 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:16:13.365 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/25 17:16:13.365 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/25 17:16:13.365 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/25 17:16:13.365 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/25 17:16:13.365 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/25 17:16:13.365 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:16:13.365 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:16:13.366 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:16:13.366 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:16:56.202 [I] [main.go:37]  init success
+2018/10/25 17:16:56.239 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:17:03.274 [D] [router.go:928]  |            ::1|[47m 302 [0m|    182.725µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:17:03.356 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.440299ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:17:08.315 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.432607ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:17:11.333 [D] [router.go:928]  |            ::1|[47m 302 [0m|     41.587µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:17:11.444 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.996031ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:17:37.762 [I] [main.go:37]  init success
+2018/10/25 17:17:37.804 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:17:49.509 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.803861ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:17:53.420 [D] [router.go:928]  |            ::1|[47m 302 [0m|     97.764µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:17:53.530 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.231675ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:19:51.255 [I] [main.go:37]  init success
+2018/10/25 17:19:51.286 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:19:54.094 [D] [router.go:928]  |            ::1|[42m 200 [0m|    4.11891ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:19:57.535 [D] [router.go:928]  |            ::1|[47m 302 [0m|    137.689µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:19:57.585 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.958208ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:20:02.242 [D] [router.go:928]  |            ::1|[47m 302 [0m|     67.454µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:20:02.306 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.075756ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:20:06.451 [D] [router.go:928]  |            ::1|[47m 302 [0m|      104.3µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:20:06.608 [D] [router.go:928]  |            ::1|[42m 200 [0m|     8.6702ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:20:53.859 [I] [main.go:37]  init success
+2018/10/25 17:20:53.879 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:21:01.550 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.633794ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:21:04.463 [D] [router.go:928]  |            ::1|[47m 302 [0m|    221.112µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:21:04.542 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.121977ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:21:07.243 [D] [router.go:928]  |            ::1|[47m 302 [0m|     95.358µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:21:07.306 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.690635ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:21:09.620 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.605536ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:36:34.123 [I] [main.go:37]  init success
+2018/10/25 17:36:34.157 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:38:14.072 [D] [router.go:928]  |            ::1|[47m 302 [0m|     523.01µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:38:14.196 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.115926ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:41:47.928 [I] [main.go:37]  init success
+2018/10/25 17:41:47.955 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:42:17.357 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.439884ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:42:22.628 [D] [router.go:928]  |            ::1|[47m 302 [0m|    369.201µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:42:22.727 [D] [router.go:928]  |            ::1|[42m 200 [0m|    7.04057ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:44:44.654 [I] [main.go:37]  init success
+2018/10/25 17:44:44.703 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:44:48.567 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.659951ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:44:53.454 [D] [router.go:928]  |            ::1|[47m 302 [0m|    129.545µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:44:53.546 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.384501ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:46:22.806 [I] [main.go:37]  init success
+2018/10/25 17:46:22.842 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:46:50.090 [I] [main.go:37]  init success
+2018/10/25 17:46:50.111 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:46:55.374 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.758615ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:47:02.327 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:47:02.327 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:47:02.327 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:47:02.327 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:47:02.327 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:47:02.327 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:47:02.327 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:47:02.328 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:47:02.328 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:47:02.328 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:48:42.206 [I] [main.go:37]  init success
+2018/10/25 17:48:42.253 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:48:47.906 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:48:47.906 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:48:47.906 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:48:47.906 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:48:47.906 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:48:47.907 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:48:47.907 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:48:47.907 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:48:47.907 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:48:47.908 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:48:49.621 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.308149ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:48:52.009 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:48:52.009 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:48:52.009 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:48:52.009 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:48:52.010 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:48:52.010 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:48:52.010 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:48:52.010 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:48:52.010 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:49:08.273 [I] [main.go:37]  init success
+2018/10/25 17:49:08.305 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:49:12.936 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.993277ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:49:23.909 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:49:23.909 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:49:23.909 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:49:23.909 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:49:23.909 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:49:23.909 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:49:23.909 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:49:23.909 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:49:23.910 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:49:23.910 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:49:23.910 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:49:23.910 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:49:23.910 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:49:23.910 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:49:23.911 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:50:58.801 [I] [main.go:37]  init success
+2018/10/25 17:50:58.840 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:51:06.648 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:51:06.648 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:51:06.648 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:51:06.648 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:51:06.648 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:51:06.648 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:51:06.649 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:52:33.162 [I] [main.go:37]  init success
+2018/10/25 17:52:33.187 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:52:50.278 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:52:50.278 [C] [config.go:177]  Handler crashed with error runtime error: index out of range
+2018/10/25 17:52:50.278 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:52:50.278 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:52:50.278 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:44
+2018/10/25 17:52:50.278 [C] [config.go:183]  /data/go/workspace/src/jifenblock/common/common.go:53
+2018/10/25 17:52:50.278 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:37
+2018/10/25 17:52:50.278 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:52:50.279 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:52:50.279 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:52:50.279 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:52:50.279 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:52:50.279 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:52:50.279 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:52:50.279 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:53:40.060 [I] [main.go:37]  init success
+2018/10/25 17:53:40.084 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:53:45.765 [D] [router.go:928]  |            ::1|[47m 302 [0m|   8.634224ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:53:45.851 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.390643ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:53:48.286 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.970929ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:53:52.694 [D] [router.go:928]  |            ::1|[47m 302 [0m|   7.001105ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:53:52.775 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.338694ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:53:56.507 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.351922ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:56:41.943 [I] [main.go:37]  init success
+2018/10/25 17:56:41.976 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:56:48.621 [C] [config.go:176]  the request url is  /createaccount
+2018/10/25 17:56:48.622 [C] [config.go:177]  Handler crashed with error wrong db field/column name `title` for model `jifenblock/models.Account`
+2018/10/25 17:56:48.622 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:56:48.622 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:88
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:322
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/orm.go:128
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/jifenblock/models/models.go:65
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:39
+2018/10/25 17:56:48.622 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/25 17:56:48.622 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/25 17:56:48.622 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/25 17:56:48.622 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/25 17:56:48.623 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/25 17:56:48.623 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/25 17:56:48.623 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/25 17:56:48.623 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/25 17:57:20.294 [I] [main.go:37]  init success
+2018/10/25 17:57:20.317 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:57:23.371 [D] [router.go:928]  |            ::1|[47m 302 [0m|    610.851µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:57:23.428 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.250303ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/25 17:57:59.909 [I] [main.go:37]  init success
+2018/10/25 17:57:59.943 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 17:58:06.545 [D] [router.go:928]  |            ::1|[47m 302 [0m|   5.637766ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/25 17:58:06.652 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.538875ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/25 17:58:08.858 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.826396ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:05:09.587 [I] [main.go:37]  init success
+2018/10/25 18:05:09.617 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:05:13.101 [D] [template.go:69]  template Execute err: template: accounts.html:31:38: executing "accounts.html" at <$account.Name>: can't evaluate field Name in type string
+2018/10/25 18:05:13.101 [E] [router.go:860]  template: accounts.html:31:38: executing "accounts.html" at <$account.Name>: can't evaluate field Name in type string
+2018/10/25 18:05:13.101 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.886638ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:05:15.275 [D] [template.go:69]  template Execute err: template: accounts.html:31:38: executing "accounts.html" at <$account.Name>: can't evaluate field Name in type string
+2018/10/25 18:05:15.275 [E] [router.go:860]  template: accounts.html:31:38: executing "accounts.html" at <$account.Name>: can't evaluate field Name in type string
+2018/10/25 18:05:15.276 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.325261ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:06:20.729 [I] [main.go:37]  init success
+2018/10/25 18:06:20.755 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:06:23.694 [D] [template.go:69]  template Execute err: template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:06:23.695 [E] [router.go:860]  template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:06:23.695 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.212237ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:06:31.340 [D] [template.go:69]  template Execute err: template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:06:31.341 [E] [router.go:860]  template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:06:31.341 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.992659ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:07:23.334 [I] [main.go:37]  init success
+2018/10/25 18:07:23.356 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:08:24.808 [D] [template.go:69]  template Execute err: template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:08:24.808 [E] [router.go:860]  template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:08:24.808 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.000477ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:09:17.813 [I] [main.go:37]  init success
+2018/10/25 18:09:17.838 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:09:48.566 [D] [template.go:69]  template Execute err: template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:09:48.567 [E] [router.go:860]  template: accounts.html:32:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:09:48.567 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.642921ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:10:32.808 [D] [template.go:69]  template Execute err: template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:10:32.811 [E] [router.go:860]  template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:10:32.811 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.382688ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:10:40.631 [I] [main.go:37]  init success
+2018/10/25 18:10:40.648 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:10:50.434 [D] [template.go:69]  template Execute err: template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:10:50.435 [E] [router.go:860]  template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:10:50.435 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.335078ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:12:19.269 [I] [main.go:37]  init success
+2018/10/25 18:12:19.304 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:12:28.267 [D] [template.go:69]  template Execute err: template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:12:28.268 [E] [router.go:860]  template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:12:28.268 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.050549ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:12:33.041 [D] [template.go:69]  template Execute err: template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:12:33.041 [E] [router.go:860]  template: accounts.html:30:30: executing "accounts.html" at <.Name>: can't evaluate field Name in type string
+2018/10/25 18:12:33.041 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.689026ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:13:09.858 [I] [main.go:37]  init success
+2018/10/25 18:13:09.891 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 18:13:28.195 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.709432ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:13:58.259 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.586603ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:15:46.121 [D] [router.go:928]  |            ::1|[42m 200 [0m|  23.053632ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:16:06.190 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.045876ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:17:10.989 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.932279ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:17:37.217 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.173701ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:17:56.044 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.028093ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 18:18:06.839 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.733749ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/25 19:13:14.645 [I] [main.go:37]  init success
+2018/10/25 19:13:15.017 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x0fc531885ee72a8cddbb5252264057a9ff59b2ff7de0f58d3969d324cc66deae, 花费(wei):9128010000000000, gas数量:304267, gas单价:30000000000,nonce:114, value(amount): 0 
+
+2018/10/25 19:13:15.036 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:25:11.609 [I] [main.go:37]  init success
+2018/10/25 19:25:11.918 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xaefb8475eccb7a78495539a7677c784abd45e9e24c1ab39790dda66cfebf94f7, 花费(wei):9128010000000000, gas数量:304267, gas单价:30000000000,nonce:115, value(amount): 0 
+
+2018/10/25 19:28:20.959 [I] [main.go:37]  init success
+2018/10/25 19:28:21.244 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xff3bcae25f6ed6b8a5bf52de33915b50257035fc534ad93406f7f553fc03d4dc, 花费(wei):9128010000000000, gas数量:304267, gas单价:30000000000,nonce:116, value(amount): 0 
+
+2018/10/25 19:28:21.301 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:38:32.363 [I] [main.go:37]  init success
+2018/10/25 19:38:32.533 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:45:24.320 [I] [main.go:37]  init success
+2018/10/25 19:45:24.358 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:48:11.063 [I] [main.go:37]  init success
+2018/10/25 19:48:11.140 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:48:55.669 [I] [main.go:37]  init success
+2018/10/25 19:48:55.721 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 19:53:08.271 [I] [main.go:37]  init success
+2018/10/25 19:53:08.343 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:01:54.494 [I] [main.go:37]  init success
+2018/10/25 20:01:54.553 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:10:28.493 [I] [main.go:37]  init success
+2018/10/25 20:10:28.526 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:12:52.161 [I] [main.go:37]  init success
+2018/10/25 20:12:52.196 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:13:12.452 [I] [main.go:37]  init success
+2018/10/25 20:13:12.486 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:15:14.783 [I] [main.go:37]  init success
+2018/10/25 20:15:14.914 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x8223b6206265c9aa39ee5500f7f1a66b4c4d1b2d9210b7df4933ddf6c8c6f5ab, 花费(wei):9128010000000000, gas数量:304267, gas单价:30000000000,nonce:117, value(amount): 0 
+
+2018/10/25 20:15:14.940 [I] [app.go:215]  http server Running on http://:8080
+2018/10/25 20:16:31.975 [I] [main.go:37]  init success
+2018/10/25 20:16:32.003 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 15:29:45.586 [I] [main.go:37]  init success
+2018/10/26 15:29:45.675 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 15:30:01.916 [D] [router.go:928]  |            ::1|[42m 200 [0m|  48.478901ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:30:07.017 [D] [router.go:928]  |            ::1|[42m 200 [0m|  27.201833ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 15:30:44.733 [D] [router.go:928]  |            ::1|[42m 200 [0m|  23.468559ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:31:39.627 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.271946ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:31:52.732 [D] [router.go:928]  |            ::1|[42m 200 [0m|   53.96247ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:32:20.534 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.392256ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:32:36.367 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.312419ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:33:04.291 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.48771ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:33:09.146 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.462494ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 15:33:28.773 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.448967ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:33:33.218 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.238727ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 15:33:34.461 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.818257ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:33:36.327 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.553134ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 15:35:50.054 [D] [router.go:928]  |            ::1|[42m 200 [0m|   35.18316ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:37:34.326 [I] [main.go:37]  init success
+2018/10/26 15:37:34.407 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 15:38:47.059 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:38:47.059 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:38:47.060 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:38:47.060 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:38:47.060 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:38:47.060 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:38:47.060 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:38:47.060 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:38:47.060 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:38:47.060 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:38:47.060 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:38:47.060 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:38:47.068 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:39:04.300 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:39:04.300 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:39:04.300 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:39:04.300 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:39:04.300 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:39:04.300 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:39:04.300 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:39:04.300 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:39:04.300 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:39:04.300 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:39:04.301 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:39:04.301 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:39:04.301 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:39:54.774 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:39:54.778 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:39:54.778 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:39:54.778 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:39:54.778 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:39:54.778 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:39:54.778 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:39:54.778 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:39:54.778 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:39:54.778 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:39:54.779 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:39:54.779 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:39:54.779 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:39:56.321 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:39:56.321 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:39:56.321 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:39:56.321 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:39:56.321 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:39:56.321 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:39:56.321 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:39:56.321 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:39:56.321 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:39:56.322 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:39:56.322 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:39:56.322 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:39:56.322 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:39:58.301 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:39:58.301 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:39:58.301 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:39:58.301 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:39:58.301 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:39:58.301 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:39:58.301 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:39:58.301 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:39:58.301 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:39:58.301 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:39:58.301 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:39:58.301 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:39:58.302 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:40:45.314 [I] [main.go:37]  init success
+2018/10/26 15:40:45.366 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 15:40:48.044 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:40:48.045 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:40:48.045 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:40:48.045 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:40:48.045 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:40:48.045 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:40:48.045 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:40:48.045 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:40:48.045 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:40:48.045 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:40:48.045 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:40:48.045 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:40:48.046 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:40:50.427 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 15:40:50.427 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/accounts.html
+2018/10/26 15:40:50.427 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 15:40:50.427 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 15:40:50.427 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/26 15:40:50.427 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:256
+2018/10/26 15:40:50.427 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:207
+2018/10/26 15:40:50.427 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/26 15:40:50.427 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/26 15:40:50.427 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 15:40:50.427 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 15:40:50.427 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 15:40:50.428 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 15:41:23.478 [I] [main.go:37]  init success
+2018/10/26 15:41:23.533 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 15:42:09.510 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.236227ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 15:52:34.312 [I] [main.go:37]  init success
+2018/10/26 15:52:34.349 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:38:17.740 [I] [main.go:37]  init success
+2018/10/26 16:38:17.808 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:43:59.048 [I] [main.go:37]  init success
+2018/10/26 16:43:59.080 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:44:39.710 [I] [main.go:37]  init success
+2018/10/26 16:44:39.743 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:46:20.920 [I] [main.go:37]  init success
+2018/10/26 16:46:20.986 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:48:00.533 [I] [main.go:37]  init success
+2018/10/26 16:48:00.582 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:49:51.668 [I] [main.go:37]  init success
+2018/10/26 16:49:51.702 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 16:50:39.331 [D] [router.go:928]  |            ::1|[42m 200 [0m|  25.506757ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 16:50:40.628 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.270627ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 16:50:42.359 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.557011ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 16:52:28.366 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.572649ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 16:53:52.322 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.755691ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 16:53:55.586 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.886584ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:56:52.698 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.378865ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:57:06.715 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.741028ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:57:18.789 [D] [router.go:928]  |            ::1|[42m 200 [0m|   12.25936ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:57:41.702 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.098633ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:57:46.387 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.771402ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:58:00.999 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.932915ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:58:02.754 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.678047ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:58:10.394 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.859857ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:58:29.950 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.570122ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:58:44.768 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.21003ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:59:09.415 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.632559ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:59:11.639 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.308601ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:59:26.813 [D] [template.go:69]  template Execute err: html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:26.816 [E] [router.go:860]  html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:26.816 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.406824ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:59:28.531 [D] [template.go:69]  template Execute err: html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:28.531 [E] [router.go:860]  html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:28.531 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.973243ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 16:59:31.479 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.055787ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 16:59:35.279 [D] [template.go:69]  template Execute err: html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:35.281 [E] [router.go:860]  html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 16:59:35.281 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.547544ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:00:39.109 [I] [main.go:37]  init success
+2018/10/26 17:00:39.154 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:00:44.922 [D] [template.go:69]  template Execute err: html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 17:00:44.923 [E] [router.go:860]  html/template:account/createaccount.html:15:60: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 17:00:44.923 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.058112ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:00.619 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.341838ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:08.932 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.984676ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:19.968 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.814858ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:44.681 [D] [router.go:928]  |            ::1|[42m 200 [0m|    6.44941ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:46.571 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.289243ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:55.341 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.276341ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:56.737 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.119091ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:02:58.587 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.39041ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:03:35.068 [D] [template.go:69]  template Execute err: html/template:account/createaccount.html:15:61: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 17:03:35.069 [E] [router.go:860]  html/template:account/createaccount.html:15:61: {{if}} branches end in different contexts: {stateAttr delimSpaceOrTagEnd urlPartNone jsCtxRegexp attrNone elementNone <nil>}, {stateTag delimNone urlPartNone jsCtxRegexp attrNone elementNone <nil>}
+2018/10/26 17:03:35.069 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.076272ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:03:48.317 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.179809ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:15:48.161 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.419926ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:15:50.124 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.765931ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:15:53.918 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.648702ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:01.015 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.995649ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:04.769 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.806684ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:09.564 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.591937ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 17:16:12.598 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.725021ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:16:16.874 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.304714ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:32.594 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <.Err>: Err is not a method but has arguments
+2018/10/26 17:16:32.596 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <.Err>: Err is not a method but has arguments
+2018/10/26 17:16:32.596 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.693265ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:34.388 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <.Err>: Err is not a method but has arguments
+2018/10/26 17:16:34.389 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <.Err>: Err is not a method but has arguments
+2018/10/26 17:16:34.389 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.634706ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:43.839 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:43.841 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:43.841 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.174045ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:44.654 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:44.654 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:44.654 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.104433ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:44.889 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:44.890 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:44.890 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.30656ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:45.223 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.223 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.223 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.558532ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:45.495 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.495 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.495 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.848588ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:45.780 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.780 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:45.780 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.554142ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:46.082 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:46.082 [E] [router.go:860]  template: account/createaccount.html:15:61: executing "account/createaccount.html" at <$.Err>: Err is not a method but has arguments
+2018/10/26 17:16:46.082 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.415218ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:51.753 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:16:51.753 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:16:51.753 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.256148ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:16:52.543 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:16:52.543 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:16:52.543 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.887717ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:17:48.218 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: malformed character constant: 'kd'
+2018/10/26 17:17:48.221 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:17:48.221 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:17:48.221 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.051904ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:17:49.197 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: malformed character constant: 'kd'
+2018/10/26 17:17:49.198 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:17:49.198 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:17:49.198 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.76332ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:17.085 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: malformed character constant: 'kd'
+2018/10/26 17:18:17.087 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:17.087 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:17.087 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.189995ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:17.962 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: malformed character constant: 'kd'
+2018/10/26 17:18:17.962 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:17.962 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:17.962 [D] [router.go:928]  |            ::1|[42m 200 [0m|    780.401µs|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:26.802 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:26.803 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:26.803 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.990562ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:27.655 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:27.657 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:27.657 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.423283ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:28.019 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:28.019 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:28.019 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.88064ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:18:29.394 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:29.395 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:18:29.395 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.465898ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:19:21.753 [I] [main.go:37]  init success
+2018/10/26 17:19:21.806 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:19:59.997 [I] [main.go:36]  init success
+2018/10/26 17:20:00.034 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:20:00.385 [D] [template.go:69]  template Execute err: template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:20:00.385 [E] [router.go:860]  template: account/createaccount.html:15:60: executing "account/createaccount.html" at <eq true .Err "kd">: error calling eq: incompatible types for comparison
+2018/10/26 17:20:00.385 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.056984ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:20:19.509 [D] [router.go:928]  |            ::1|[42m 200 [0m|    5.79416ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:20:31.244 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: unexpected bad character U+003D '=' in if
+2018/10/26 17:20:31.245 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.163846ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:20:33.879 [E] [template.go:220]  parse template err: account/createaccount.html template: account/createaccount.html:15: unexpected bad character U+003D '=' in if
+2018/10/26 17:20:33.881 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.22845ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:20:54.044 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.886051ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:23:53.453 [I] [main.go:36]  init success
+2018/10/26 17:23:53.496 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:24:14.310 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.448729ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:24:20.644 [D] [router.go:928]  |            ::1|[47m 302 [0m|     344.17µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:24:20.733 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.224348ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:24:22.124 [D] [router.go:928]  |            ::1|[47m 302 [0m|    517.963µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:24:22.229 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.286483ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:25:39.745 [I] [main.go:36]  init success
+2018/10/26 17:25:39.793 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:25:52.378 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.249642ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:25:58.382 [D] [router.go:928]  |            ::1|[47m 302 [0m|    104.519µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:25:58.477 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.257922ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:26:05.572 [D] [router.go:928]  |            ::1|[47m 302 [0m|    167.138µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:26:05.679 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.185195ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:26:35.095 [I] [main.go:36]  init success
+2018/10/26 17:26:35.131 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:26:35.421 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.149574ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:26:58.687 [I] [main.go:36]  init success
+2018/10/26 17:26:58.740 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:28:59.183 [I] [main.go:36]  init success
+2018/10/26 17:28:59.230 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:29:04.919 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.312211ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:29:07.938 [D] [router.go:928]  |            ::1|[47m 302 [0m|     226.09µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:29:08.030 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.046448ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:29:12.497 [D] [router.go:928]  |            ::1|[47m 302 [0m|  35.931622ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:29:12.725 [D] [router.go:928]  |            ::1|[42m 200 [0m|    5.55795ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 17:29:15.163 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.979039ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 17:29:16.049 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.386002ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:31:14.523 [I] [main.go:36]  init success
+2018/10/26 17:31:14.562 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:31:18.115 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.945842ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:31:21.434 [D] [router.go:928]  |            ::1|[47m 302 [0m|   4.039295ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:31:21.512 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.781613ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:31:23.546 [E] [jifen.go:76]  createAccount failed, name=, err:记录已经存在
+2018/10/26 17:31:23.546 [D] [router.go:928]  |            ::1|[47m 302 [0m|     585.48µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:31:23.612 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.058418ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:31:27.209 [E] [jifen.go:76]  createAccount failed, name=, err:记录已经存在
+2018/10/26 17:31:27.209 [D] [router.go:928]  |            ::1|[47m 302 [0m|    411.254µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:31:27.276 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.821311ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:31:29.289 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.657413ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:32:02.051 [I] [main.go:36]  init success
+2018/10/26 17:32:02.084 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:32:02.509 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.679172ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:32:06.115 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.663204ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:32:13.853 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.070366ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:32:17.331 [E] [jifen.go:76]  createAccount failed, name=zhangweijian, err:记录已经存在
+2018/10/26 17:32:17.331 [D] [router.go:928]  |            ::1|[47m 302 [0m|    668.979µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:32:17.410 [D] [router.go:928]  |            ::1|[42m 200 [0m|    4.31619ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:32:23.671 [D] [router.go:928]  |            ::1|[47m 302 [0m|   4.515152ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:32:23.746 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.214027ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:32:49.764 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.989104ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:33:02.338 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.481122ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:33:09.341 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.273567ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:33:10.900 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.776204ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/26 17:33:44.340 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.919982ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:36:18.397 [I] [main.go:36]  init success
+2018/10/26 17:36:18.431 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:36:31.961 [I] [main.go:36]  init success
+2018/10/26 17:36:31.974 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:36:50.738 [I] [main.go:37]  init success
+2018/10/26 17:36:50.777 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:36:50.985 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 17:36:50.985 [C] [config.go:177]  Handler crashed with error Raw value: `[]` convert to `*int64` failed, field: jifenblock/models.Account.Score err: strconv.ParseInt: parsing "": invalid syntax
+2018/10/26 17:36:50.985 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 17:36:50.985 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 17:36:50.985 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:1196
+2018/10/26 17:36:50.985 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:1011
+2018/10/26 17:36:50.985 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/10/26 17:36:50.985 [C] [config.go:183]  /data/go/workspace/src/jifenblock/models/models.go:85
+2018/10/26 17:36:50.985 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:39
+2018/10/26 17:36:50.985 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 17:36:50.985 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/26 17:36:50.986 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/26 17:36:50.986 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/26 17:36:50.986 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 17:36:50.986 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 17:36:50.986 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 17:36:50.986 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 17:36:53.397 [C] [config.go:176]  the request url is  /accounts
+2018/10/26 17:36:53.397 [C] [config.go:177]  Handler crashed with error Raw value: `[]` convert to `*int64` failed, field: jifenblock/models.Account.Score err: strconv.ParseInt: parsing "": invalid syntax
+2018/10/26 17:36:53.397 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 17:36:53.397 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/26 17:36:53.397 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:1196
+2018/10/26 17:36:53.397 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/db.go:1011
+2018/10/26 17:36:53.397 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/orm/orm_queryset.go:201
+2018/10/26 17:36:53.397 [C] [config.go:183]  /data/go/workspace/src/jifenblock/models/models.go:85
+2018/10/26 17:36:53.397 [C] [config.go:183]  /data/go/workspace/src/jifenblock/controllers/jifen.go:39
+2018/10/26 17:36:53.397 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/26 17:36:53.397 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:447
+2018/10/26 17:36:53.397 [C] [config.go:183]  /usr/local/go/src/reflect/value.go:308
+2018/10/26 17:36:53.398 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:847
+2018/10/26 17:36:53.398 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/26 17:36:53.398 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/26 17:36:53.398 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/26 17:36:53.398 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/26 17:37:14.718 [I] [main.go:37]  init success
+2018/10/26 17:37:14.768 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:37:47.832 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.498459ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:37:51.442 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.449316ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:38:06.281 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.960922ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:38:09.523 [D] [router.go:928]  |            ::1|[47m 302 [0m|   2.148349ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:38:09.606 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.699269ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:38:12.062 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.32096ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/26 17:38:16.577 [D] [router.go:928]  |            ::1|[47m 302 [0m|   3.829143ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/26 17:38:16.639 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.890899ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:39:16.767 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.160847ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:39:52.892 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.618156ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:40:11.762 [D] [router.go:928]  |            ::1|[42m 200 [0m|    8.98989ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:40:27.164 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.673156ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:41:05.198 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.548387ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:41:49.450 [D] [router.go:928]  |            ::1|[42m 200 [0m|  30.501007ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:41:51.645 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.908993ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:41:54.967 [D] [router.go:928]  |            ::1|[43m 404 [0m|    252.192µs| nomatch|[44m GET     [0m /fabi
+2018/10/26 17:43:12.578 [D] [router.go:928]  |            ::1|[42m 200 [0m|   27.67264ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:43:13.745 [D] [router.go:928]  |            ::1|[43m 404 [0m|    369.549µs| nomatch|[44m GET     [0m /fabi
+2018/10/26 17:43:46.340 [I] [main.go:37]  init success
+2018/10/26 17:43:46.382 [I] [app.go:215]  http server Running on http://:8080
+2018/10/26 17:43:50.113 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.191959ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/26 17:43:51.697 [D] [router.go:928]  |            ::1|[42m 200 [0m|    102.109µs|   match|[44m GET     [0m /fabi   r:/fabi

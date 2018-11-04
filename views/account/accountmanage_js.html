@@ -1,0 +1,28 @@
+<script>
+    $("#score_btn").click(function (e) {
+        $.ajax({
+            //几个参数需要注意一下
+            type: "POST",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: "/scoremanage/{{.CurAccountName}}" ,//url
+            data: $('#score_form').serialize(),
+            success: function (result) {
+                console.log(result);//打印服务端返回的数据(调试用)
+                if (result.code == 0) {
+                    $("h4").text("Success")
+                    $("#errDiv").removeClass("alert-danger").addClass("alert-success").attr("hidden", false).find("p span").text("积分更新成功");
+                    $("#score_cancel_btn").click()
+                    //reload
+                    setTimeout('window.location.href = "/accounts"', 2000)
+                }else{
+                    $("h4").text("Error")
+                    $("#errDiv").removeClass("alert-success").addClass("alert-danger").attr("hidden", false).find("p span").text(result.msg);
+                }
+            },
+            error : function(XMLHttpRequest, textStatus, errorThrown) {
+                $("#errDiv").attr("hidden", false)
+                $("#errMsg").text("服务器error")
+            }
+        });
+    })
+</script>

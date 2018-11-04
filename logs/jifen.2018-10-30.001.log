@@ -1,0 +1,666 @@
+2018/10/29 09:33:11.629 [D] [router.go:928]  |            ::1|[42m 200 [0m|   73.96205ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:33:59.522 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.741414ms|   match|[44m GET     [0m /fabi   r:/fabi
+2018/10/29 09:34:34.286 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.168346ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/29 09:34:36.132 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.052566ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 09:34:37.188 [D] [router.go:928]  |            ::1|[42m 200 [0m|   10.83693ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:50:01.906 [I] [main.go:37]  init success
+2018/10/29 09:50:02.016 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 09:50:02.711 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.286881ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:50:06.135 [D] [router.go:928]  |            ::1|[42m 200 [0m|    154.249µs|   match|[44m GET     [0m /distribute   r:/distribute
+2018/10/29 09:51:47.672 [D] [router.go:928]  |            ::1|[42m 200 [0m|    8.87212ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:51:49.844 [D] [router.go:928]  |            ::1|[42m 200 [0m|    116.568µs|   match|[44m GET     [0m /distribute   r:/distribute
+2018/10/29 09:52:08.856 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.067865ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:52:23.078 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.541656ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:53:38.724 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.60389ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:55:55.093 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.676216ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:56:33.994 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.129562ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:57:07.045 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.525127ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:57:20.991 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.033017ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:57:36.949 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.654931ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:57:50.780 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.404043ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:58:02.899 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.822137ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 09:58:30.212 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.653311ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:00:05.532 [D] [router.go:928]  |            ::1|[42m 200 [0m|  22.755293ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:01:41.262 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.502299ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:02:05.351 [D] [router.go:928]  |            ::1|[42m 200 [0m|     6.6133ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:02:14.505 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.980746ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:02:33.887 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.044515ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:02:42.872 [D] [router.go:928]  |            ::1|[42m 200 [0m|    5.45404ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:06:26.938 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.04109ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:07:27.332 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.153598ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:07:55.817 [D] [router.go:928]  |            ::1|[42m 200 [0m|   13.57767ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:09:21.707 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.251803ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:16:17.951 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.244036ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:17:04.590 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.411788ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:17:33.597 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.718412ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:17:49.271 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.428476ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:18:58.838 [D] [router.go:928]  |            ::1|[42m 200 [0m|    9.95198ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:19:30.350 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.321836ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:19:56.912 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.225351ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:20:06.364 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.655368ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:20:40.356 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.043031ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:21:47.258 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.754035ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:24:58.033 [D] [router.go:928]  |            ::1|[42m 200 [0m|  28.228593ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:25:25.160 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.658302ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:26:09.577 [D] [router.go:928]  |            ::1|[42m 200 [0m|    24.8068ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:26:31.543 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.935442ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:27:23.146 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.475012ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:27:29.156 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.648039ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:28:25.158 [D] [router.go:928]  |            ::1|[42m 200 [0m|  26.722932ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:29:36.401 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.005111ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:30:18.470 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.706438ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:30:18.658 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.467396ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css
+2018/10/29 10:30:18.659 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.749337ms|   match|[44m GET     [0m /static/adminlte/dist/css/AdminLTE.min.css
+2018/10/29 10:30:18.661 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.94733ms|   match|[44m GET     [0m /static/adminlte/bower_components/morris.js/morris.css
+2018/10/29 10:30:18.663 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.640029ms|   match|[44m GET     [0m /static/adminlte/bower_components/Ionicons/css/ionicons.min.css
+2018/10/29 10:30:18.664 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.948692ms|   match|[44m GET     [0m /static/adminlte/bower_components/font-awesome/css/font-awesome.min.css
+2018/10/29 10:30:18.671 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.834869ms|   match|[44m GET     [0m /static/adminlte/dist/css/skins/_all-skins.min.css
+2018/10/29 10:30:18.681 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.596902ms|   match|[44m GET     [0m /static/adminlte/bower_components/jvectormap/jquery-jvectormap.css
+2018/10/29 10:30:18.703 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.601645ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css
+2018/10/29 10:30:18.705 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.541219ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css
+2018/10/29 10:30:18.709 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.814047ms|   match|[44m GET     [0m /static/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+2018/10/29 10:30:18.759 [D] [router.go:928]  |            ::1|[42m 200 [0m|    7.77574ms|   match|[44m GET     [0m /static/adminlte/bower_components/jquery/dist/jquery.min.js
+2018/10/29 10:30:18.760 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.526311ms|   match|[44m GET     [0m /static/adminlte/dist/img/user2-160x160.jpg
+2018/10/29 10:30:18.852 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.441064ms|   match|[44m GET     [0m /static/adminlte/bower_components/jquery-ui/jquery-ui.min.js
+2018/10/29 10:30:18.856 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.699348ms|   match|[44m GET     [0m /static/adminlte/bower_components/raphael/raphael.min.js
+2018/10/29 10:30:18.859 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.415942ms|   match|[44m GET     [0m /static/adminlte/bower_components/morris.js/morris.min.js
+2018/10/29 10:30:18.860 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.001685ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js
+2018/10/29 10:30:18.864 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.144309ms|   match|[44m GET     [0m /static/adminlte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+2018/10/29 10:30:18.869 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.191906ms|   match|[44m GET     [0m /static/adminlte/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js
+2018/10/29 10:30:18.917 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.27315ms|   match|[44m GET     [0m /static/adminlte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+2018/10/29 10:30:18.928 [D] [router.go:928]  |            ::1|[42m 200 [0m|    9.57349ms|   match|[44m GET     [0m /static/adminlte/bower_components/jquery-knob/dist/jquery.knob.min.js
+2018/10/29 10:30:18.929 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.093884ms|   match|[44m GET     [0m /static/adminlte/bower_components/moment/min/moment.min.js
+2018/10/29 10:30:18.938 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.788263ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js
+2018/10/29 10:30:18.940 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.186585ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js
+2018/10/29 10:30:18.977 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.58365ms|   match|[44m GET     [0m /static/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+2018/10/29 10:30:19.040 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.822085ms|   match|[44m GET     [0m /static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js
+2018/10/29 10:30:19.044 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.879461ms|   match|[44m GET     [0m /static/adminlte/dist/js/adminlte.min.js
+2018/10/29 10:30:19.045 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.573718ms|   match|[44m GET     [0m /static/adminlte/bower_components/fastclick/lib/fastclick.js
+2018/10/29 10:30:19.127 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.784518ms|   match|[44m GET     [0m /static/adminlte/dist/js/pages/dashboard.js
+2018/10/29 10:30:19.148 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.593333ms|   match|[44m GET     [0m /static/adminlte/dist/js/demo.js
+2018/10/29 10:30:19.267 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.84448ms|   match|[44m GET     [0m /static/adminlte/bower_components/font-awesome/fonts/fontawesome-webfont.woff2
+2018/10/29 10:30:19.281 [D] [router.go:928]  |            ::1|[42m 200 [0m|   12.12852ms|   match|[44m GET     [0m /static/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+2018/10/29 10:30:20.032 [D] [router.go:928]  |            ::1|[43m 404 [0m|   3.513085ms| nomatch|[44m GET     [0m /favicon.ico
+2018/10/29 10:38:15.370 [D] [router.go:928]  |            ::1|[42m 200 [0m|   26.31207ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:38:56.768 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.742736ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:40:25.120 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.438681ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:41:40.220 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.444042ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:41:49.652 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.803067ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:42:28.663 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.347654ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:13.442 [D] [router.go:928]  |            ::1|[42m 200 [0m|   21.31267ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:31.427 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.979862ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:34.126 [D] [router.go:928]  |            ::1|[43m 404 [0m|   7.595901ms| nomatch|[44m GET     [0m /account
+2018/10/29 10:47:36.869 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.473195ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:40.914 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.292139ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:51.562 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.618302ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:47:56.806 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.972206ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:48:13.767 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.835728ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:48:18.600 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.314502ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:49:37.243 [E] [template.go:220]  parse template err: account/accounts.html template: account/accounts.html:92: unexpected {{end}}
+2018/10/29 10:49:37.244 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.070484ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:49:43.510 [E] [template.go:220]  parse template err: account/accounts.html template: account/accounts.html:92: unexpected {{end}}
+2018/10/29 10:49:43.511 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.838103ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:50:22.493 [D] [router.go:928]  |            ::1|[42m 200 [0m|  26.750846ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:50:42.043 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.060804ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:50:57.209 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.386987ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:51:44.490 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.191452ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:51:55.863 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.811914ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:52:26.012 [D] [router.go:928]  |            ::1|[42m 200 [0m|   15.41886ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:52:34.437 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.388151ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:53:02.631 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.034064ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:53:17.412 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.381871ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:53:22.435 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.866045ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:53:48.414 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.35545ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:53:59.428 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.403997ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:54:15.845 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.286953ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:54:39.787 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.594782ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:54:43.551 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.576598ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 10:54:45.237 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.564135ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:54:48.142 [D] [router.go:928]  |            ::1|[47m 302 [0m|  19.186535ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:54:48.240 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.823439ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:54:54.278 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:54:54.281 [D] [router.go:928]  |            ::1|[47m 302 [0m|   6.254494ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:54:54.369 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.520061ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:54:58.878 [E] [jifen.go:74]  createAccount failed, name=zhangweijian, err:记录已经存在
+2018/10/29 10:54:58.878 [D] [router.go:928]  |            ::1|[47m 302 [0m|    492.925µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:54:58.957 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.745063ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:55:52.678 [E] [jifen.go:74]  createAccount failed, name=zhangweijian, err:记录已经存在
+2018/10/29 10:55:52.683 [D] [router.go:928]  |            ::1|[47m 302 [0m|   6.141616ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:55:52.872 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.114701ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:55:54.843 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.96313ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:55:59.376 [E] [jifen.go:74]  createAccount failed, name=zhangweijian, err:记录已经存在
+2018/10/29 10:55:59.378 [D] [router.go:928]  |            ::1|[47m 302 [0m|    2.65946ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:55:59.445 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.508008ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:56:04.735 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:56:04.735 [D] [router.go:928]  |            ::1|[47m 302 [0m|    979.143µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:56:04.828 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.437085ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:56:07.814 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:56:07.814 [D] [router.go:928]  |            ::1|[47m 302 [0m|    394.444µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:56:07.899 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.151565ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:56:13.773 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:56:13.775 [D] [router.go:928]  |            ::1|[47m 302 [0m|   2.770128ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:56:13.861 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.590649ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:56:20.000 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:56:20.003 [D] [router.go:928]  |            ::1|[47m 302 [0m|    2.99859ms|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:56:20.094 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.326379ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:57:29.368 [I] [main.go:37]  init success
+2018/10/29 10:57:29.469 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 10:57:54.065 [E] [jifen.go:74]  createAccount failed, name=, err:记录已经存在
+2018/10/29 10:57:54.065 [D] [router.go:928]  |            ::1|[47m 302 [0m|    804.386µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:57:54.315 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.548419ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:58:46.577 [I] [main.go:37]  init success
+2018/10/29 10:58:46.630 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 10:58:57.239 [I] [main.go:37]  init success
+2018/10/29 10:58:57.288 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 10:59:00.616 [D] [router.go:928]  |            ::1|[47m 302 [0m|    345.992µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:59:00.732 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.467898ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:59:05.450 [D] [router.go:928]  |            ::1|[47m 302 [0m|     96.161µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:59:05.560 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.766769ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:59:42.133 [I] [main.go:37]  init success
+2018/10/29 10:59:42.188 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 10:59:46.886 [D] [router.go:928]  |            ::1|[47m 302 [0m|    455.518µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:59:46.980 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.328004ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:59:52.157 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.472252ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:59:54.291 [D] [router.go:928]  |            ::1|[47m 302 [0m|    123.092µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 10:59:54.363 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.546405ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 10:59:59.957 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.327168ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:00:02.494 [D] [router.go:928]  |            ::1|[47m 302 [0m|    124.895µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 11:00:02.587 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.14251ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:00:23.576 [D] [router.go:928]  |            ::1|[47m 302 [0m|    574.707µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 11:00:23.683 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.113924ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:13:06.184 [D] [router.go:928]  |            ::1|[42m 200 [0m|  33.137931ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:13:07.933 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.647675ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:13:13.517 [D] [router.go:928]  |            ::1|[47m 302 [0m|    181.185µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 11:13:13.667 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.972925ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:13:15.331 [D] [router.go:928]  |            ::1|[42m 200 [0m|    2.96865ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:13:17.930 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.100346ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:13:48.573 [I] [main.go:37]  init success
+2018/10/29 11:13:48.625 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 11:27:32.662 [D] [router.go:928]  |            ::1|[42m 200 [0m|  27.870261ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:27:36.345 [D] [router.go:928]  |            ::1|[47m 302 [0m|    222.267µs|   match|[46m POST    [0m /createaccount   r:/createaccount
+2018/10/29 11:27:36.443 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.712354ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 11:27:49.837 [D] [router.go:928]  |            ::1|[42m 200 [0m|  33.236708ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:32:17.908 [D] [router.go:928]  |            ::1|[42m 200 [0m|  23.792985ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:32:23.329 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.526393ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:33:40.044 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.923624ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:33:55.142 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.398494ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:34:08.919 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.316943ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:35:16.917 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.557731ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 11:35:17.815 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.695229ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 11:35:18.131 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.547714ms|   match|[44m GET     [0m /static/adminlte/bower_components/Ionicons/fonts/ionicons.ttf
+2018/10/29 11:35:20.308 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.563678ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:16:46.113 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.010818ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:04.436 [D] [router.go:928]  |            ::1|[42m 200 [0m|  35.360852ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:07.047 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.589421ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:14.431 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.670839ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:18.801 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.446483ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:21.196 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.656345ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:34.504 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.875017ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:18:38.019 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.611165ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:20:01.505 [D] [router.go:928]  |            ::1|[43m 404 [0m|   1.851765ms| nomatch|[44m GET     [0m /  
+2018/10/29 14:20:05.241 [D] [router.go:928]  |            ::1|[42m 200 [0m|  28.612042ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:20:08.795 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.641395ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:20:14.335 [D] [router.go:928]  |            ::1|[42m 200 [0m|    7.02505ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:20:58.260 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.443288ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:21:07.098 [D] [router.go:928]  |            ::1|[42m 200 [0m|   11.43328ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:22:12.992 [D] [router.go:928]  |            ::1|[42m 200 [0m|   17.85739ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:22:25.005 [D] [router.go:928]  |            ::1|[42m 200 [0m|  26.605145ms|   match|[46m POST    [0m /accounts   r:/accounts
+2018/10/29 14:22:42.217 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.967053ms|   match|[46m POST    [0m /accounts   r:/accounts
+2018/10/29 14:24:21.484 [D] [router.go:928]  |            ::1|[42m 200 [0m|  26.660545ms|   match|[46m POST    [0m /accounts   r:/accounts
+2018/10/29 14:24:50.771 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.451693ms|   match|[46m POST    [0m /accounts   r:/accounts
+2018/10/29 14:24:56.732 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.630366ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:47:20.298 [I] [main.go:37]  init success
+2018/10/29 14:47:20.388 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 14:50:03.352 [D] [router.go:928]  |            ::1|[42m 200 [0m|  56.379642ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:50:16.959 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.131406ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:50:24.540 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.506163ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:51:11.661 [I] [main.go:37]  init success
+2018/10/29 14:51:11.698 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 14:51:19.764 [C] [config.go:176]  the request url is  /accounts
+2018/10/29 14:51:19.764 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/base/account_js.html
+2018/10/29 14:51:19.764 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:522
+2018/10/29 14:51:19.764 [C] [config.go:183]  /usr/local/go/src/runtime/panic.go:513
+2018/10/29 14:51:19.764 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/template.go:73
+2018/10/29 14:51:19.764 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:219
+2018/10/29 14:51:19.764 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/controller.go:187
+2018/10/29 14:51:19.764 [C] [config.go:183]  /data/go/workspace/src/github.com/astaxie/beego/router.go:859
+2018/10/29 14:51:19.764 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:2741
+2018/10/29 14:51:19.764 [C] [config.go:183]  /usr/local/go/src/net/http/server.go:1847
+2018/10/29 14:51:19.765 [C] [config.go:183]  /usr/local/go/src/runtime/asm_amd64.s:1333
+2018/10/29 14:51:19.765 [log.go:179]  [HTTP] http: multiple response.WriteHeader calls
+2018/10/29 14:51:56.056 [I] [main.go:37]  init success
+2018/10/29 14:51:56.113 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 14:52:00.998 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.579266ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:57:00.230 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.918199ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:57:03.511 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.513363ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:57:16.276 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.423807ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:58:19.301 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.630476ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:58:53.370 [D] [router.go:928]  |            ::1|[42m 200 [0m|   18.08683ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:59:14.849 [D] [router.go:928]  |            ::1|[42m 200 [0m|   15.24415ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 14:59:30.001 [D] [router.go:928]  |            ::1|[42m 200 [0m|   23.81772ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:03:01.108 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.897879ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:03:07.093 [D] [router.go:928]  |            ::1|[43m 404 [0m|    533.273µs| nomatch|[46m POST    [0m /scoremanage
+2018/10/29 15:03:13.380 [D] [router.go:928]  |            ::1|[43m 404 [0m|    381.576µs| nomatch|[46m POST    [0m /scoremanage
+2018/10/29 15:03:55.099 [D] [router.go:928]  |            ::1|[42m 200 [0m|  25.694098ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:03:57.869 [D] [router.go:928]  |            ::1|[43m 404 [0m|    458.063µs| nomatch|[46m POST    [0m /scoremanage
+2018/10/29 15:05:17.168 [I] [main.go:37]  init success
+2018/10/29 15:05:17.224 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:06:33.214 [D] [router.go:928]  |            ::1|[42m 200 [0m|   20.86808ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:09:43.072 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.463338ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:11:19.410 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.397385ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:12:05.732 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.269124ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:12:55.007 [D] [router.go:928]  |            ::1|[42m 200 [0m|   12.90212ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:13:20.487 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.572952ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:15:28.129 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.518359ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:15:40.583 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.503704ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:16:25.198 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.734756ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:17:25.250 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.594654ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:18:00.890 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.818721ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:19:28.349 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.411336ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:20:00.970 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.583423ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:20:16.971 [D] [router.go:928]  |            ::1|[42m 200 [0m|   17.15271ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:21:10.373 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.526609ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:21:33.975 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.488235ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:22:05.531 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.023856ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:22:53.065 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.551489ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:23:04.436 [D] [jifen.go:59]  optype[],username[]
+2018/10/29 15:23:04.438 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.471151ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:26:33.851 [I] [main.go:37]  init success
+2018/10/29 15:26:33.895 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:26:36.688 [D] [jifen.go:59]  optype[],username[]
+2018/10/29 15:26:36.688 [D] [router.go:928]  |            ::1|[42m 200 [0m|    719.735µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:26:45.770 [D] [router.go:928]  |            ::1|[42m 200 [0m|  25.252663ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:26:51.647 [D] [jifen.go:59]  optype[],username[]
+2018/10/29 15:26:51.647 [D] [router.go:928]  |            ::1|[42m 200 [0m|    319.901µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:27:49.924 [I] [main.go:37]  init success
+2018/10/29 15:27:49.994 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:27:54.198 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.730488ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:28:37.520 [I] [main.go:37]  init success
+2018/10/29 15:28:37.556 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:30:26.791 [I] [main.go:37]  init success
+2018/10/29 15:30:26.879 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:30:39.419 [D] [router.go:928]  |            ::1|[42m 200 [0m|    546.342µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:35:14.656 [I] [main.go:37]  init success
+2018/10/29 15:35:14.733 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:35:22.883 [D] [router.go:928]  |            ::1|[42m 200 [0m|    742.785µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:36:04.771 [I] [main.go:37]  init success
+2018/10/29 15:36:04.820 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:36:05.065 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.068965ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:36:16.605 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.026971ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:38:46.209 [I] [main.go:37]  init success
+2018/10/29 15:38:46.251 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:40:07.964 [D] [router.go:928]  |            ::1|[42m 200 [0m|     920.35µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:40:51.370 [I] [main.go:37]  init success
+2018/10/29 15:40:51.427 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:40:55.992 [D] [router.go:928]  |            ::1|[42m 200 [0m|    373.319µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:45:35.954 [I] [main.go:37]  init success
+2018/10/29 15:45:35.994 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:45:46.048 [D] [router.go:928]  |            ::1|[42m 200 [0m|    614.815µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:46:20.119 [I] [main.go:37]  init success
+2018/10/29 15:46:20.174 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:46:31.081 [D] [router.go:928]  |            ::1|[42m 200 [0m|    609.457µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:47:37.248 [D] [router.go:928]  |            ::1|[42m 200 [0m|  32.024284ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:47:45.171 [D] [router.go:928]  |            ::1|[42m 200 [0m|    253.378µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:48:45.316 [I] [main.go:37]  init success
+2018/10/29 15:48:45.355 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:48:48.818 [D] [router.go:928]  |            ::1|[42m 200 [0m|    527.625µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:50:45.841 [I] [main.go:37]  init success
+2018/10/29 15:50:45.875 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:50:52.350 [D] [jifen.go:61]  optype[deduct],username[zhangweijian]
+2018/10/29 15:50:52.351 [D] [router.go:928]  |            ::1|[42m 200 [0m|    666.946µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:50:53.476 [D] [jifen.go:61]  optype[deduct],username[zhangweijian]
+2018/10/29 15:50:53.476 [D] [router.go:928]  |            ::1|[42m 200 [0m|     288.21µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:55:26.585 [I] [main.go:37]  init success
+2018/10/29 15:55:26.640 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:55:50.881 [I] [main.go:37]  init success
+2018/10/29 15:55:50.927 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 15:55:52.720 [D] [jifen.go:62]  optype:distribute,username:weelin
+2018/10/29 15:55:52.720 [D] [router.go:928]  |            ::1|[42m 200 [0m|    725.713µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:56:41.739 [D] [jifen.go:62]  optype:distribute,username:weelin
+2018/10/29 15:56:41.740 [D] [router.go:928]  |            ::1|[42m 200 [0m|    872.939µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:56:43.315 [D] [router.go:928]  |            ::1|[42m 200 [0m|  23.321548ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:56:49.143 [D] [jifen.go:62]  optype:distribute,username:weelin
+2018/10/29 15:56:49.143 [D] [router.go:928]  |            ::1|[42m 200 [0m|    387.755µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:57:02.073 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.578127ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:57:08.540 [D] [jifen.go:62]  optype:deduct,username:zhangweijian
+2018/10/29 15:57:08.540 [D] [router.go:928]  |            ::1|[42m 200 [0m|    227.881µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:59:02.033 [D] [router.go:928]  |            ::1|[42m 200 [0m|  27.644604ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 15:59:23.934 [D] [jifen.go:62]  optype:distribute,username:zhangweijian
+2018/10/29 15:59:23.934 [D] [router.go:928]  |            ::1|[42m 200 [0m|    768.423µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 15:59:34.877 [D] [jifen.go:62]  optype:distribute,username:zhangweijian
+2018/10/29 15:59:34.877 [D] [router.go:928]  |            ::1|[42m 200 [0m|    679.078µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:00:51.181 [D] [router.go:928]  |            ::1|[42m 200 [0m|     9.9723ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:00:59.123 [D] [jifen.go:62]  optype:deduct,username:zhangweijian
+2018/10/29 16:00:59.124 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.654859ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:01:40.406 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.841472ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:01:45.674 [D] [jifen.go:62]  optype:deduct,username:weelin
+2018/10/29 16:01:45.675 [D] [router.go:928]  |            ::1|[42m 200 [0m|    535.239µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:01:45.785 [D] [router.go:928]  |            ::1|[42m 200 [0m|    13.7252ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:01:54.178 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.546423ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:01:58.684 [D] [jifen.go:62]  optype:deduct,username:weelin
+2018/10/29 16:01:58.685 [D] [router.go:928]  |            ::1|[42m 200 [0m|    366.698µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:01:58.761 [D] [router.go:928]  |            ::1|[43m 404 [0m|    262.464µs| nomatch|[44m GET     [0m /accountsd
+2018/10/29 16:03:42.004 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.597621ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:03:50.213 [D] [jifen.go:62]  optype:deduct,username:weelin
+2018/10/29 16:03:50.213 [D] [router.go:928]  |            ::1|[42m 200 [0m|    290.463µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:03:50.334 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.728389ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:04:16.509 [D] [jifen.go:62]  optype:,username:zhangweijian
+2018/10/29 16:04:16.511 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.168365ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 16:16:42.811 [I] [main.go:37]  init success
+2018/10/29 16:16:42.888 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 16:17:52.072 [I] [main.go:37]  init success
+2018/10/29 16:17:52.109 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 16:55:30.923 [I] [main.go:37]  init success
+2018/10/29 16:55:31.017 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 16:55:41.180 [D] [router.go:928]  |            ::1|[42m 200 [0m|  54.549495ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:55:56.687 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.006775ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 16:56:36.224 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.150786ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:01:41.174 [I] [main.go:37]  init success
+2018/10/29 17:01:41.240 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:01:52.895 [D] [jifen.go:64]  optype:distribute,username:zhangweijian
+2018/10/29 17:01:52.897 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.151065ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:02:03.080 [D] [jifen.go:64]  optype:distribute,username:zhangweijian
+2018/10/29 17:02:03.083 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.755754ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:02:03.369 [D] [router.go:928]  |            ::1|[42m 200 [0m|  43.196696ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:03:12.021 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.522335ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:03:47.503 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.881599ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:04:10.100 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.653506ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:04:15.705 [D] [jifen.go:64]  optype:distribute,username:zhangweijian
+2018/10/29 17:04:15.705 [D] [router.go:928]  |            ::1|[42m 200 [0m|    332.006µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:05:10.772 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.443934ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:05:17.216 [D] [jifen.go:64]  optype:deduct,username:weelin
+2018/10/29 17:05:17.218 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.327516ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:05:22.005 [D] [jifen.go:64]  optype:deduct,username:weelin
+2018/10/29 17:05:22.006 [D] [router.go:928]  |            ::1|[42m 200 [0m|    360.133µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:12:59.972 [I] [main.go:37]  init success
+2018/10/29 17:13:00.022 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:13:46.959 [I] [main.go:37]  init success
+2018/10/29 17:13:47.026 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:13:50.237 [D] [jifen.go:65]  optype:deduct,username:fuck
+2018/10/29 17:13:50.237 [D] [router.go:928]  |            ::1|[42m 200 [0m|    308.785µs|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:16:23.738 [I] [main.go:37]  init success
+2018/10/29 17:16:23.778 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:16:29.214 [D] [jifen.go:65]  optype:deduct,username:fuck
+2018/10/29 17:16:29.214 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.765147ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:16:53.317 [D] [jifen.go:65]  optype:distribute,username:fuck
+2018/10/29 17:16:53.320 [E] [models.go:152]  GenerateTxDetail failed, 不存在此账户
+2018/10/29 17:16:53.320 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.104893ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:17:50.412 [I] [main.go:37]  init success
+2018/10/29 17:17:50.579 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:17:58.056 [D] [jifen.go:64]  optype:distribute,username:weelin
+2018/10/29 17:17:58.059 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.073898ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:30:14.566 [I] [main.go:37]  init success
+2018/10/29 17:30:14.656 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:30:29.163 [D] [router.go:928]  |            ::1|[42m 200 [0m|  26.453391ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 17:30:38.179 [D] [jifen.go:65]  optype:distribute,username:zhangweijian
+2018/10/29 17:30:38.469 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x78752e2b61e0ac9ef69493f86972a059e2108758bb2426e14d32723e4c1b8153, 花费(wei):9120330000000000, gas数量:304011, gas单价:30000000000,nonce:118, value(amount): 0 
+
+2018/10/29 17:30:38.482 [D] [router.go:928]  |            ::1|[42m 200 [0m| 303.670146ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:34:13.817 [I] [main.go:37]  init success
+2018/10/29 17:34:13.892 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:34:33.621 [D] [jifen.go:65]  optype:distribute,username:weelin
+2018/10/29 17:34:33.864 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xe8813dd54d3da49d0b7b8d57c1e7635ae4261450a6ee9c184ec22f434f872cd0, 花费(wei):9120330000000000, gas数量:304011, gas单价:30000000000,nonce:119, value(amount): 0 
+
+2018/10/29 17:34:33.963 [E] [api.go:99]  积分发放failed, replacement transaction underpriced
+2018/10/29 17:34:33.963 [E] [jifen.go:98]  交易执行失败 txDetail: {0 e3K21RQe9pVN0gtwpxwov3V4AmU6Tnvw 6nY9foB0YsFfj8iGVmRCgVEbqL2qrLVW xxxx yyy 2018-10-29 17:34:33 2018-10-29 17:34:33 500 zzzzz},err: replacement transaction underpriced
+2018/10/29 17:34:33.964 [D] [router.go:928]  |            ::1|[42m 200 [0m| 343.192418ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:36:48.558 [I] [main.go:37]  init success
+2018/10/29 17:36:48.590 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:37:01.117 [D] [jifen.go:65]  optype:distribute,username:zhangweijian
+2018/10/29 17:37:01.194 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x6e12bff646003c1c83c7da7b3e0c206f4d08b4d2cb63ea6455f9d68d48dab81e, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:120, value(amount): 0 
+
+2018/10/29 17:37:01.210 [D] [router.go:928]  |            ::1|[42m 200 [0m|  94.149519ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 17:37:16.429 [I] [main.go:37]  init success
+2018/10/29 17:37:16.468 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:46:22.378 [I] [main.go:37]  init success
+2018/10/29 17:46:22.426 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 17:46:44.264 [D] [jifen.go:65]  optype:distribute,username:zhangweijian
+2018/10/29 17:46:44.340 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xd044c68c69aabc5ff34d6164d11f2f6f896a170da76ef7fb87bd3549f10c8214, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:121, value(amount): 0 
+
+2018/10/29 17:46:44.396 [E] [api.go:99]  积分发放failed, replacement transaction underpriced
+2018/10/29 17:46:44.396 [E] [jifen.go:99]  交易执行失败 txDetail: {0 lR71hTZ2giZhYiZVEVS4atkpFS508RC8 krlnwaRpRnhYfjUweLf4wuGnlur3Lxab xxxx yyy 2018-10-29 17:46:44 2018-10-29 17:46:44 65 zzzzz},err: replacement transaction underpriced
+2018/10/29 17:46:44.396 [D] [router.go:928]  |            ::1|[42m 200 [0m| 132.290643ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 18:15:44.091 [I] [main.go:37]  init success
+2018/10/29 18:15:44.146 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:15:44.773 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.898528ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:18:31.753 [I] [main.go:37]  init success
+2018/10/29 18:18:31.851 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:18:44.069 [I] [main.go:37]  init success
+2018/10/29 18:18:44.124 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:18:45.337 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.332756ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:19:15.485 [I] [main.go:37]  init success
+2018/10/29 18:19:15.526 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:19:21.029 [D] [jifen.go:65]  optype:distribute,username:zhangweijian
+2018/10/29 18:19:21.099 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xc71a5f85019e73e72497648fc62b89e0471da386af24cbe79466d380ea44debc, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:122, value(amount): 0 
+
+2018/10/29 18:19:21.113 [D] [router.go:928]  |            ::1|[42m 200 [0m|  86.993621ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 18:19:26.832 [D] [jifen.go:65]  optype:distribute,username:zhangweijian
+2018/10/29 18:19:26.878 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xf023d4e200c86e3a384a82e62975a51628067112800a2472e3bcde595a40b691, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:123, value(amount): 0 
+
+2018/10/29 18:19:26.882 [D] [router.go:928]  |            ::1|[42m 200 [0m|  50.569583ms|   match|[46m POST    [0m /scoremanage   r:/scoremanage
+2018/10/29 18:19:45.577 [I] [main.go:37]  init success
+2018/10/29 18:19:45.617 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:41:27.808 [D] [router.go:928]  |            ::1|[42m 200 [0m|  45.080327ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:49:49.388 [I] [main.go:37]  init success
+2018/10/29 18:49:49.469 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:49:54.953 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.420324ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:49:59.171 [D] [router.go:928]  |            ::1|[43m 404 [0m|     559.49µs| nomatch|[44m GET     [0m /accountmanage/zhangweijian
+2018/10/29 18:50:36.544 [I] [main.go:37]  init success
+2018/10/29 18:50:36.607 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:50:52.635 [I] [main.go:37]  init success
+2018/10/29 18:50:52.684 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:50:55.607 [D] [router.go:928]  |            ::1|[43m 404 [0m|    671.715µs| nomatch|[44m GET     [0m /accountmanage/zhangweijian
+2018/10/29 18:50:57.251 [D] [router.go:928]  |            ::1|[43m 404 [0m|    198.753µs| nomatch|[44m GET     [0m /accountmanage/zhangweijian
+2018/10/29 18:51:00.265 [D] [router.go:928]  |            ::1|[42m 200 [0m|  30.827669ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:51:02.391 [D] [router.go:928]  |            ::1|[43m 404 [0m|    279.887µs| nomatch|[44m GET     [0m /accountmanage/zhangweijian
+2018/10/29 18:51:37.966 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.943319ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 18:51:40.047 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.648995ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:52:23.056 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.826998ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:52:39.271 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.703279ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:52:57.091 [D] [router.go:928]  |            ::1|[42m 200 [0m|   16.83442ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:53:08.729 [D] [router.go:928]  |            ::1|[42m 200 [0m|  27.839039ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:53:17.503 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.386008ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:55:27.798 [I] [main.go:37]  init success
+2018/10/29 18:55:27.847 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 18:55:28.295 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.435635ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:55:32.515 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.251891ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:55:59.513 [D] [router.go:928]  |            ::1|[42m 200 [0m|  22.921278ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:56:35.890 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.407568ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:56:48.506 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.087016ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:57:03.993 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.071635ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:58:17.178 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.373495ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:59:04.246 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.923144ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:59:07.185 [D] [jifen.go:78]  optype:,username:
+2018/10/29 18:59:07.185 [D] [router.go:928]  |            ::1|[42m 200 [0m|    758.063µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 18:59:22.043 [D] [jifen.go:78]  optype:distribute,username:
+2018/10/29 18:59:22.050 [D] [router.go:928]  |            ::1|[42m 200 [0m|    7.14822ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:01:05.660 [I] [main.go:37]  init success
+2018/10/29 19:01:05.708 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:01:10.719 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 29
+2018/10/29 19:01:10.907 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x6d5dccf7f36066cd6d8596639fcf334b1a6632d5d661a63c6270e5a6d06ffc2a, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:124, value(amount): 0 
+
+2018/10/29 19:01:10.913 [D] [router.go:928]  |            ::1|[42m 200 [0m| 195.143828ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:01:18.072 [I] [main.go:37]  init success
+2018/10/29 19:01:18.137 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:01:32.151 [D] [router.go:928]  |            ::1|[42m 200 [0m|  13.864435ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:01:35.688 [D] [router.go:928]  |            ::1|[42m 200 [0m|    3.90729ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:01:39.744 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.752762ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:01:44.727 [D] [jifen.go:77]  optype:distribute,username:weelin, count: 100
+2018/10/29 19:01:44.798 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x377a0f0a1a8beaa2da6687dce98b246e640d553afba9cd34ab3de4464b689b33, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:125, value(amount): 0 
+
+2018/10/29 19:01:44.803 [D] [router.go:928]  |            ::1|[42m 200 [0m|  76.265483ms|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:02:01.209 [I] [main.go:37]  init success
+2018/10/29 19:02:01.267 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:02:23.544 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.089609ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:03:40.610 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.488623ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:03:50.629 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.256436ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:04:07.451 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.311921ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:04:15.919 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.820877ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:04:20.935 [D] [router.go:928]  |            ::1|[42m 200 [0m|  23.321371ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:04:27.833 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.077055ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:04:36.814 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.546894ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:04:59.842 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.982362ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:05:31.879 [D] [router.go:928]  |            ::1|[42m 200 [0m|  14.959805ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:05:53.148 [D] [router.go:928]  |            ::1|[42m 200 [0m|  17.880357ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:05:55.287 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.001838ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:05:58.574 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.419853ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:05:59.337 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.289587ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:06:20.139 [D] [router.go:928]  |            ::1|[42m 200 [0m|   20.20774ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:06:33.587 [D] [router.go:928]  |            ::1|[42m 200 [0m|   20.75485ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:06:37.339 [D] [jifen.go:77]  optype:,username:zhangweijian, count: 
+2018/10/29 19:06:37.339 [D] [router.go:928]  |            ::1|[42m 200 [0m|    296.692µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:03.956 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.411708ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:06.698 [D] [jifen.go:77]  optype:,username:zhangweijian, count: 
+2018/10/29 19:07:06.698 [D] [router.go:928]  |            ::1|[42m 200 [0m|    362.434µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:13.459 [D] [jifen.go:77]  optype:,username:zhangweijian, count: dsdd
+2018/10/29 19:07:13.459 [D] [router.go:928]  |            ::1|[42m 200 [0m|    306.197µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:14.787 [D] [jifen.go:77]  optype:,username:zhangweijian, count: dsdd
+2018/10/29 19:07:14.789 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.226822ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:15.349 [D] [jifen.go:77]  optype:,username:zhangweijian, count: dsdd
+2018/10/29 19:07:15.349 [D] [router.go:928]  |            ::1|[42m 200 [0m|    291.273µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:23.888 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: dsdd
+2018/10/29 19:07:23.890 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.179479ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:07:32.039 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 100
+2018/10/29 19:07:32.155 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x6b1ceee02d6cbc70004f5ca726368128dc9c2982b7dc49e7c79f9cf854632319, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:126, value(amount): 0 
+
+2018/10/29 19:07:32.165 [D] [router.go:928]  |            ::1|[42m 200 [0m| 126.053985ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:08:10.080 [D] [router.go:928]  |            ::1|[42m 200 [0m|  21.102034ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:10:07.353 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.687981ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:10:14.920 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 100
+2018/10/29 19:10:14.995 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x35e4f86bd2b6e61cafded922aa1cf69e3caf3f34f28c3b3cc28037c8de3ef0fb, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:127, value(amount): 0 
+
+2018/10/29 19:10:15.003 [D] [router.go:928]  |            ::1|[42m 200 [0m|  83.919659ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:10:17.090 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.815375ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:12:15.761 [I] [main.go:37]  init success
+2018/10/29 19:12:15.814 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:12:15.947 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.749436ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:12:19.133 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.578676ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:12:26.887 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: dd
+2018/10/29 19:12:26.887 [D] [router.go:928]  |            ::1|[42m 200 [0m|    568.356µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:12:32.979 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 60
+2018/10/29 19:12:33.062 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x1b6b107dfc02ca0de73190ee7ad1c1c3c48e80405552e306436a6e5f3f5a07db, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:128, value(amount): 0 
+
+2018/10/29 19:12:33.071 [D] [router.go:928]  |            ::1|[42m 200 [0m|  92.314222ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:12:35.192 [D] [router.go:928]  |            ::1|[42m 200 [0m|  19.469208ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:14:32.243 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.368152ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:14:34.130 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.721951ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:14:42.711 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 2
+2018/10/29 19:14:42.767 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x8eec046a7e794b56c360dd53bf45874896302b1f20891df166b56795469ab08d, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:129, value(amount): 0 
+
+2018/10/29 19:14:42.777 [D] [router.go:928]  |            ::1|[42m 200 [0m|   66.15259ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:14:44.859 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.083816ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:15:33.406 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.862143ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:15:35.979 [D] [router.go:928]  |            ::1|[42m 200 [0m|   8.783879ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:15:47.069 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 1
+2018/10/29 19:15:47.130 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xd611db341e82ba82ec87dc4e7e875e1a9d0f927323baab41adec5ea71fbf9411, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:130, value(amount): 0 
+
+2018/10/29 19:15:47.136 [D] [router.go:928]  |            ::1|[42m 200 [0m|   67.40542ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:15:49.251 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.119139ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:15:55.937 [I] [main.go:37]  init success
+2018/10/29 19:15:55.962 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:18:25.634 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.317696ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:18:27.725 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.191236ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:18:29.098 [D] [jifen.go:77]  optype:,username:zhangweijian, count: 
+2018/10/29 19:18:29.098 [D] [router.go:928]  |            ::1|[42m 200 [0m|    325.978µs|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:18:33.391 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 12
+2018/10/29 19:18:33.485 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x3be7cfb631ada5cdfb0bea992086213f24ba9689e844c4d0ec13e03477bfe49d, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:131, value(amount): 0 
+
+2018/10/29 19:18:33.497 [D] [router.go:928]  |            ::1|[42m 200 [0m| 107.020566ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:18:35.578 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.481103ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:18:48.425 [D] [router.go:928]  |            ::1|[42m 200 [0m|  10.642534ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:18:54.123 [D] [jifen.go:77]  optype:distribute,username:weelin, count: d
+2018/10/29 19:18:54.123 [D] [router.go:928]  |            ::1|[42m 200 [0m|    307.841µs|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:18:59.356 [D] [jifen.go:77]  optype:distribute,username:weelin, count: 15
+2018/10/29 19:18:59.424 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x34bf65c63696b73a8f9180501d56cbeaaed089ec367544d277d393d40d76f528, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:132, value(amount): 0 
+
+2018/10/29 19:18:59.432 [D] [router.go:928]  |            ::1|[42m 200 [0m|  76.315592ms|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:19:01.550 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.851595ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:19:17.651 [D] [router.go:928]  |            ::1|[42m 200 [0m|  15.681376ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:19:19.220 [D] [router.go:928]  |            ::1|[42m 200 [0m|   6.015193ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:19:24.831 [D] [jifen.go:77]  optype:deduct,username:weelin, count: 100
+2018/10/29 19:19:24.834 [D] [router.go:928]  |            ::1|[42m 200 [0m|   2.430731ms|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:19:26.931 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.587135ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:19:29.408 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.042635ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:19:32.917 [D] [jifen.go:77]  optype:distribute,username:weelin, count: 23
+2018/10/29 19:19:33.027 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x1c1ce6098c786e74fbf679f81135c516ddaf2ddb4fc8555a77699ca0233da34f, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:133, value(amount): 0 
+
+2018/10/29 19:19:33.044 [D] [router.go:928]  |            ::1|[42m 200 [0m| 126.215992ms|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:19:35.122 [D] [router.go:928]  |            ::1|[42m 200 [0m|    5.53117ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:20:01.942 [D] [router.go:928]  |            ::1|[42m 200 [0m|  20.143081ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:20:43.104 [D] [router.go:928]  |            ::1|[42m 200 [0m|  27.165664ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:20:44.396 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.417013ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:20:47.352 [D] [jifen.go:77]  optype:distribute,username:zhangweijian, count: 12
+2018/10/29 19:20:47.520 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x98ff5c51a27460af536be6a4b166a6e1112bece0e776a19c48f371ebcce5d08a, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:134, value(amount): 0 
+
+2018/10/29 19:20:47.530 [D] [router.go:928]  |            ::1|[42m 200 [0m| 178.277018ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:20:49.677 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.680314ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:20:51.914 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.707593ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:20:55.365 [D] [jifen.go:77]  optype:distribute,username:weelin, count: a
+2018/10/29 19:20:55.366 [D] [router.go:928]  |            ::1|[42m 200 [0m|    361.086µs|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:21:03.380 [D] [jifen.go:77]  optype:distribute,username:weelin, count: 1
+2018/10/29 19:21:03.445 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xc35f6fd21cc44fd5a5c402c7fd1119227728c4a093861cf4f92a140265b36b99, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:135, value(amount): 0 
+
+2018/10/29 19:21:03.449 [D] [router.go:928]  |            ::1|[42m 200 [0m|  69.051451ms|   match|[46m POST    [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:21:05.554 [D] [router.go:928]  |            ::1|[42m 200 [0m|  12.264711ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:21:07.669 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.170537ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 19:22:07.804 [D] [router.go:928]  |            ::1|[42m 200 [0m|  16.556089ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 19:22:25.283 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.772305ms|   match|[44m GET     [0m /createaccount   r:/createaccount
+2018/10/29 19:22:30.646 [D] [router.go:928]  |            ::1|[42m 200 [0m|   9.396216ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:22:32.116 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.518821ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 19:22:33.278 [D] [router.go:928]  |            ::1|[42m 200 [0m|   7.835316ms|   match|[44m GET     [0m /transactions   r:/transactions
+2018/10/29 19:22:35.007 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.444686ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 19:22:37.213 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.583581ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:22:40.503 [D] [router.go:928]  |            ::1|[42m 200 [0m|    1.34273ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 19:22:42.027 [D] [router.go:928]  |            ::1|[42m 200 [0m|   4.629805ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:22:45.216 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.005753ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:22:48.273 [D] [jifen.go:77]  optype:,username:zhangweijian, count: 
+2018/10/29 19:22:48.275 [D] [router.go:928]  |            ::1|[42m 200 [0m|   1.992889ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:23:27.700 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.302163ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:23:36.620 [D] [router.go:928]  |            ::1|[42m 200 [0m|  11.397591ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:23:37.719 [D] [router.go:928]  |            ::1|[42m 200 [0m|    4.92201ms|   match|[44m GET     [0m /dashboard   r:/dashboard
+2018/10/29 19:24:04.453 [I] [main.go:37]  init success
+2018/10/29 19:24:04.494 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:24:09.252 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.936279ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:24:12.030 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.219234ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:24:17.103 [D] [jifen.go:78]  optype:distribute,username:zhangweijian, count: 123
+2018/10/29 19:24:17.161 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0x76e66d9cca73ea1d2a709ee24fc797639ad37e83c84241c0d4cf1ec345df5a1a, 花费(wei):8216490000000000, gas数量:273883, gas单价:30000000000,nonce:136, value(amount): 0 
+
+2018/10/29 19:24:17.167 [D] [router.go:928]  |            ::1|[42m 200 [0m|  64.237457ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:24:19.281 [D] [router.go:928]  |            ::1|[42m 200 [0m|   5.200995ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:27:43.647 [I] [main.go:37]  init success
+2018/10/29 19:27:43.780 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:28:24.929 [D] [router.go:928]  |            ::1|[42m 200 [0m|  24.377995ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:28:31.258 [D] [jifen.go:78]  optype:distribute,username:zhangweijian, count: 190
+2018/10/29 19:28:31.363 [I] [tool.go:44]  transfer pending,交易信息如下:
+执行合约: 0x62EC9EaFfDE227dF9568f1db3caE6A55404CC2b5, 交易hash: 0xb761d51958b27c2af0a7ce1b3df011066656654901cb3f1c53a51fcc6e17560f, 花费(wei):8218410000000000, gas数量:273947, gas单价:30000000000,nonce:137, value(amount): 0 
+
+2018/10/29 19:28:31.372 [D] [router.go:928]  |            ::1|[42m 200 [0m| 114.573828ms|   match|[46m POST    [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:28:34.316 [D] [router.go:928]  |            ::1|[42m 200 [0m|  18.711818ms|   match|[44m GET     [0m /accounts   r:/accounts
+2018/10/29 19:28:38.798 [I] [main.go:37]  init success
+2018/10/29 19:28:38.830 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:29:36.047 [I] [main.go:37]  init success
+2018/10/29 19:29:36.182 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:32:09.615 [I] [main.go:37]  init success
+2018/10/29 19:32:09.673 [I] [app.go:215]  http server Running on http://:8080
+2018/10/29 19:32:36.506 [D] [router.go:928]  |            ::1|[42m 200 [0m|  28.117115ms|   match|[44m GET     [0m /scoremanage/zhangweijian   r:/scoremanage/:username
+2018/10/29 19:32:40.896 [D] [router.go:928]  |            ::1|[42m 200 [0m|    9.54145ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username
+2018/10/29 19:32:45.370 [D] [router.go:928]  |            ::1|[42m 200 [0m|   3.198832ms|   match|[44m GET     [0m /scoremanage/weelin   r:/scoremanage/:username

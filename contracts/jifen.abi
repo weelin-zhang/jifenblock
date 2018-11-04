@@ -1,0 +1,271 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "value",
+				"type": "uint256"
+			},
+			{
+				"name": "txid",
+				"type": "bytes32"
+			},
+			{
+				"name": "memberOID",
+				"type": "bytes32"
+			},
+			{
+				"name": "companyOID",
+				"type": "string"
+			},
+			{
+				"name": "siteOID",
+				"type": "string"
+			},
+			{
+				"name": "createTime",
+				"type": "string"
+			},
+			{
+				"name": "updateTime",
+				"type": "string"
+			},
+			{
+				"name": "integral",
+				"type": "string"
+			},
+			{
+				"name": "types_deductibleAmount_consumeAmount_goods_goodsQty",
+				"type": "string"
+			}
+		],
+		"name": "deductJiFen_flow",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "tx_details",
+		"outputs": [
+			{
+				"name": "txid",
+				"type": "bytes32"
+			},
+			{
+				"name": "memberOID",
+				"type": "bytes32"
+			},
+			{
+				"name": "companyOID",
+				"type": "string"
+			},
+			{
+				"name": "siteOID",
+				"type": "string"
+			},
+			{
+				"name": "createTime",
+				"type": "string"
+			},
+			{
+				"name": "updateTime",
+				"type": "string"
+			},
+			{
+				"name": "integral",
+				"type": "string"
+			},
+			{
+				"name": "types_deductibleAmount_consumeAmount_goods_goodsQty",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "balanceOf",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "user_txs",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "memberOID",
+				"type": "bytes32"
+			}
+		],
+		"name": "getUser_txsLength",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "value",
+				"type": "uint256"
+			},
+			{
+				"name": "txid",
+				"type": "bytes32"
+			},
+			{
+				"name": "memberOID",
+				"type": "bytes32"
+			},
+			{
+				"name": "companyOID",
+				"type": "string"
+			},
+			{
+				"name": "siteOID",
+				"type": "string"
+			},
+			{
+				"name": "createTime",
+				"type": "string"
+			},
+			{
+				"name": "updateTime",
+				"type": "string"
+			},
+			{
+				"name": "integral",
+				"type": "string"
+			},
+			{
+				"name": "types_deductibleAmount_consumeAmount_goods_goodsQty",
+				"type": "string"
+			}
+		],
+		"name": "distributeJiFen_flow",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "txid",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "memberOID",
+				"type": "bytes32"
+			}
+		],
+		"name": "Instructor",
+		"type": "event"
+	}
+]

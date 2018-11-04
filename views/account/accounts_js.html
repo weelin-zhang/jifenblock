@@ -1,0 +1,33 @@
+<!-- layer -->
+<script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
+<script>
+    $(".refresh_score").click(function () {
+        memberId = $(this).attr("data-memberId")
+        $.ajax({
+            type: "GET",
+            url: "/refreshscore/" + memberId,
+            dataType: "json",
+            success: function (result) {
+                console.log(result);
+                if (result.code == 0) {
+                    layer.alert('更新成功', {icon: 6,
+                        time: 1000,
+                    });
+                    // geng新
+                    $("." + memberId+" > span ").text(result.data.Balance)
+                } else {
+                    layer.open({
+                        title: "Failed",
+                        content: result.msg,
+                        time: 5000, //1s后自动关闭
+                        btn: "关闭",
+                    });
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                $("#errMsg").text("服务器error")
+            }
+        });
+    })
+</script>
+
